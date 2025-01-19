@@ -17,6 +17,8 @@ This project demonstrates how to design and implement a fully automated ETL pipe
    - **Apache Airflow** is deployed on an **EC2 instance** to schedule, orchestrate, and monitor all tasks in the ETL pipeline.
    - Airflow ensures that each stage runs reliably and is updated weekly.
 
+![Airflow DAG Scheduler](https://github.com/sovit-nayak/redfin-pipeline/blob/main/Redfin/img/Airflow.png)
+
 3. **Data Storage in AWS S3:**
    - Raw data is stored in an **S3 bucket** for archival and backup.
    - Transformed data is stored in a separate S3 bucket to prepare it for downstream processing.
@@ -25,9 +27,13 @@ This project demonstrates how to design and implement a fully automated ETL pipe
    - An **S3 trigger** activates **Snowpipe**, which loads the transformed data into Snowflake.
    - A **database schema** and tables are created in Snowflake to organize and structure the data for analytics.
 
+![Snowflake Integration](https://github.com/sovit-nayak/redfin-pipeline/blob/main/Redfin/img/Snowflake.png)
+
 5. **Visualization in Tableau:**
    - Snowflake is connected to Tableau to design interactive and dynamic dashboards.
    - The dashboards provide actionable insights into real estate trends for stakeholders.
+
+![Tableau Visualization](https://github.com/sovit-nayak/redfin-pipeline/blob/main/Redfin/img/Tableau.png)
 
 ## **Key Features**
 - Fully automated ETL pipeline with **weekly updates**.
@@ -67,5 +73,4 @@ Feel free to reach out if you have any questions or suggestions about the projec
 
 ---
 
-### **License**
-This project is licensed under the MIT License - see the LICENSE file for details.
+
