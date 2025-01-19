@@ -3,6 +3,9 @@
 
 This repository contains an **End-to-End ETL Pipeline** project that automates data extraction, transformation, and visualization, leveraging tools like Apache Airflow, AWS S3, Snowflake, and Tableau.
 
+![ETL Pipeline Diagram](https://github.com/sovit-nayak/redfin-pipeline/blob/main/Redfin/img/Pipeline.png)
+
+
 ## **Project Overview**
 This project demonstrates how to design and implement a fully automated ETL pipeline to process real estate data from Redfin, ensuring efficient and scalable insights for stakeholders.
 
